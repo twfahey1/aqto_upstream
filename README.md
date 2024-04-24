@@ -1,0 +1,4 @@
+# Aqto Upstream
+![Aqto Upstream](images/aqto_upstream_logo.png)
+
+This project defines the common dependencies for all Aqto based projects. This is where we define Drupal core, contrib modules, and any other packages we want to make available to all sites. The sites can then simply `composer require twfahey1/aqto_upstream` and they will have all the dependencies they need. This assumes some other mandatory config for the "downstream" site in the composer.json - See the [Aqto Project `composer.json` ](https://github.com/twfahey1/aqto_project/blob/main/composer.json) for an example. This allows a fleet of sites using common depdenencies to be updated in a single place, while maintaining per-site flexibility.
