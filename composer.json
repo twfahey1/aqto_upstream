@@ -39,7 +39,6 @@
     "drupal/paragraphs": "^1.15",
     "drupal/pathauto": "^1.11",
     "drupal/symfony_mailer": "^1.2",
-    "drupal/tawk_to": "^3.0",
     "drupal/turnstile": "^1.1",
     "drupal/webform": "^6",
     "drupal/xmlsitemap": "^1.4",
