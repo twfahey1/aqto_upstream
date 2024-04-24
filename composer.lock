@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "adac2fbb6678240d5cd72fcaf6b84120",
+    "content-hash": "5bccc3638736b8382cb3671a024091ef",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -9027,6 +9027,44 @@
             "time": "2023-12-08T13:03:43+00:00"
         },
         {
+            "name": "twfahey1/aqto_blocks",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twfahey1/aqto_blocks.git",
+                "reference": "e89dc7a817d07fc372a08cb2e737d6655545155b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twfahey1/aqto_blocks/zipball/e89dc7a817d07fc372a08cb2e737d6655545155b",
+                "reference": "e89dc7a817d07fc372a08cb2e737d6655545155b",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "drupal-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Tyler Fahey",
+                    "email": "twfahey1@gmail.com"
+                }
+            ],
+            "description": "Provides blocks for Aqto sites.",
+            "homepage": "https://github.com/twfahey1/aqto_blocks",
+            "keywords": [
+                "drupal",
+                "module"
+            ],
+            "support": {
+                "issues": "https://github.com/twfahey1/aqto_blocks/issues",
+                "source": "https://github.com/twfahey1/aqto_blocks/tree/main"
+            },
+            "time": "2024-04-24T21:14:25+00:00"
+        },
+        {
             "name": "twfahey1/aqto_theme_base",
             "version": "dev-main",
             "source": {
@@ -9271,7 +9309,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "drupal/masquerade": 5
+        "drupal/masquerade": 5,
+        "twfahey1/aqto_theme_base": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
