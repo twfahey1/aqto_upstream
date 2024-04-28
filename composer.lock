@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c6ff46a8dd4170e67cec70f3352a7bbd",
+    "content-hash": "2712834fb155c0ec83668cd1fa5b97fc",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -9009,6 +9009,44 @@
                 "source": "https://github.com/twfahey1/aqto_blocks/tree/main"
             },
             "time": "2024-04-24T21:26:47+00:00"
+        },
+        {
+            "name": "twfahey1/aqto_defaults",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twfahey1/aqto_defaults.git",
+                "reference": "446dcdd4a0e4a82d71e7c375731f653393d8b33d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twfahey1/aqto_defaults/zipball/446dcdd4a0e4a82d71e7c375731f653393d8b33d",
+                "reference": "446dcdd4a0e4a82d71e7c375731f653393d8b33d",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "drupal-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Tyler Fahey",
+                    "email": "twfahey1@gmail.com"
+                }
+            ],
+            "description": "A Drupal module which provides default configuration for an Aqto project. This gets Aqto projects up and running quickly with a standard set of features.",
+            "homepage": "https://github.com/twfahey1/aqto_defaults",
+            "keywords": [
+                "drupal",
+                "module"
+            ],
+            "support": {
+                "issues": "https://github.com/twfahey1/aqto_defaults/issues",
+                "source": "https://github.com/twfahey1/aqto_defaults/tree/main"
+            },
+            "time": "2024-04-28T20:36:56+00:00"
         },
         {
             "name": "twfahey1/aqto_theme_base",
