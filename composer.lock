@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2712834fb155c0ec83668cd1fa5b97fc",
+    "content-hash": "05a104c44ff48f10b42d7dc01be05c48",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -9049,6 +9049,44 @@
             "time": "2024-04-28T20:36:56+00:00"
         },
         {
+            "name": "twfahey1/aqto_page",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twfahey1/aqto_page.git",
+                "reference": "1ad04b071e46553a4a3960cdad1b4146127d0362"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twfahey1/aqto_page/zipball/1ad04b071e46553a4a3960cdad1b4146127d0362",
+                "reference": "1ad04b071e46553a4a3960cdad1b4146127d0362",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "drupal-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Tyler Fahey",
+                    "email": "twfahey1@gmail.com"
+                }
+            ],
+            "description": "A Drupal module which provides the Aqto Page. The Aqto Page provides a blank canvas for building site content that is freeform and flexible in it's layout and design.",
+            "homepage": "https://github.com/twfahey1/aqto_page",
+            "keywords": [
+                "drupal",
+                "module"
+            ],
+            "support": {
+                "issues": "https://github.com/twfahey1/aqto_page/issues",
+                "source": "https://github.com/twfahey1/aqto_page/tree/main"
+            },
+            "time": "2024-04-29T20:22:55+00:00"
+        },
+        {
             "name": "twfahey1/aqto_theme_base",
             "version": "dev-main",
             "source": {
@@ -9295,6 +9333,7 @@
     "stability-flags": {
         "drupal/masquerade": 5,
         "twfahey1/aqto_blocks": 20,
+        "twfahey1/aqto_defaults": 20,
         "twfahey1/aqto_theme_base": 20
     },
     "prefer-stable": true,
