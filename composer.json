@@ -41,6 +41,7 @@
     "drupal/symfony_mailer": "^1.2",
     "drupal/turnstile": "^1.1",
     "drupal/webform": "^6",
+    "drupal/webp": "^1.0@RC",
     "drupal/xmlsitemap": "^1.4",
     "drush/drush": "^12.0",
     "twfahey1/aqto_ai_core": "dev-main",
