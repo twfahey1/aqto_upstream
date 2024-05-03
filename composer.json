@@ -43,6 +43,7 @@
     "drupal/webform": "^6",
     "drupal/xmlsitemap": "^1.4",
     "drush/drush": "^12.0",
+    "twfahey1/aqto_ai_core": "dev-main",
     "twfahey1/aqto_blocks": "dev-main",
     "twfahey1/aqto_defaults": "dev-main",
     "twfahey1/aqto_page": "dev-main",
