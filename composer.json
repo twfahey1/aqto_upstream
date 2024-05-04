@@ -48,6 +48,7 @@
     "twfahey1/aqto_blocks": "dev-main",
     "twfahey1/aqto_defaults": "dev-main",
     "twfahey1/aqto_page": "dev-main",
+    "twfahey1/aqto_static": "dev-main",
     "twfahey1/aqto_theme_base": "dev-main",
     "vlucas/phpdotenv": "^5.1",
     "webflo/drupal-finder": "^1.2"

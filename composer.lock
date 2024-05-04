@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ef5e11ead41bf4fc125be1a50f936699",
+    "content-hash": "aafaf3321f640037d458d8aef8472167",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -9186,6 +9186,44 @@
             "time": "2024-04-29T23:56:39+00:00"
         },
         {
+            "name": "twfahey1/aqto_static",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twfahey1/aqto_static.git",
+                "reference": "60277e5bac7b5275ec726806fbb9eba9e3af73c8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twfahey1/aqto_static/zipball/60277e5bac7b5275ec726806fbb9eba9e3af73c8",
+                "reference": "60277e5bac7b5275ec726806fbb9eba9e3af73c8",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "drupal-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Tyler Fahey",
+                    "email": "twfahey1@gmail.com"
+                }
+            ],
+            "description": "A Drupal module that can export content as static standalone sites.",
+            "homepage": "https://github.com/twfahey1/aqto_static",
+            "keywords": [
+                "drupal",
+                "module"
+            ],
+            "support": {
+                "issues": "https://github.com/twfahey1/aqto_static/issues",
+                "source": "https://github.com/twfahey1/aqto_static/tree/main"
+            },
+            "time": "2024-05-04T12:23:06+00:00"
+        },
+        {
             "name": "twfahey1/aqto_theme_base",
             "version": "dev-main",
             "source": {
@@ -9431,6 +9469,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "drupal/masquerade": 5,
+        "drupal/webp": 5,
         "twfahey1/aqto_ai_core": 20,
         "twfahey1/aqto_blocks": 20,
         "twfahey1/aqto_defaults": 20,
