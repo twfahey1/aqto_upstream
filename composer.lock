@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "aafaf3321f640037d458d8aef8472167",
+    "content-hash": "0c6263892a6979058707396c51214cf2",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -9034,6 +9034,47 @@
             "time": "2023-12-08T13:03:43+00:00"
         },
         {
+            "name": "twfahey1/aqto_ai_codegen",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twfahey1/aqto_ai_codegen.git",
+                "reference": "1ad78bbd0eb9c264cb1636a06d1aab611c8d2f02"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twfahey1/aqto_ai_codegen/zipball/1ad78bbd0eb9c264cb1636a06d1aab611c8d2f02",
+                "reference": "1ad78bbd0eb9c264cb1636a06d1aab611c8d2f02",
+                "shasum": ""
+            },
+            "require": {
+                "twfahey1/aqto_ai_core": "dev-main"
+            },
+            "default-branch": true,
+            "type": "drupal-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Tyler Fahey",
+                    "email": "twfahey1@gmail.com"
+                }
+            ],
+            "description": "A Drupal module which provides site code scaffolding integrating with Aqto AI Core.",
+            "homepage": "https://github.com/twfahey1/aqto_ai_core",
+            "keywords": [
+                "drupal",
+                "module"
+            ],
+            "support": {
+                "issues": "https://github.com/twfahey1/aqto_ai_codegen/issues",
+                "source": "https://github.com/twfahey1/aqto_ai_codegen/tree/main"
+            },
+            "time": "2024-05-06T20:42:10+00:00"
+        },
+        {
             "name": "twfahey1/aqto_ai_core",
             "version": "dev-main",
             "source": {
@@ -9146,6 +9187,44 @@
                 "source": "https://github.com/twfahey1/aqto_defaults/tree/main"
             },
             "time": "2024-04-30T13:58:56+00:00"
+        },
+        {
+            "name": "twfahey1/aqto_layout_builder_styles",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twfahey1/aqto_layout_builder_styles.git",
+                "reference": "8ad9aace31371280cace36deab334bcb661ef29d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twfahey1/aqto_layout_builder_styles/zipball/8ad9aace31371280cace36deab334bcb661ef29d",
+                "reference": "8ad9aace31371280cace36deab334bcb661ef29d",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "drupal-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Tyler Fahey",
+                    "email": "twfahey1@gmail.com"
+                }
+            ],
+            "description": "A Drupal module that provides ready to use layout builder styles for Aqto projects.",
+            "homepage": "https://github.com/twfahey1/aqto_layout_builder_styles",
+            "keywords": [
+                "drupal",
+                "module"
+            ],
+            "support": {
+                "issues": "https://github.com/twfahey1/aqto_layout_builder_styles/issues",
+                "source": "https://github.com/twfahey1/aqto_layout_builder_styles/tree/main"
+            },
+            "time": "2024-05-07T05:16:59+00:00"
         },
         {
             "name": "twfahey1/aqto_page",
@@ -9473,7 +9552,9 @@
         "twfahey1/aqto_ai_core": 20,
         "twfahey1/aqto_blocks": 20,
         "twfahey1/aqto_defaults": 20,
+        "twfahey1/aqto_layout_builder_styles": 20,
         "twfahey1/aqto_page": 20,
+        "twfahey1/aqto_static": 20,
         "twfahey1/aqto_theme_base": 20
     },
     "prefer-stable": true,
