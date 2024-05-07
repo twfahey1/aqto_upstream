@@ -51,6 +51,7 @@
     "twfahey1/aqto_layout_builder_styles": "dev-main",
     "twfahey1/aqto_page": "dev-main",
     "twfahey1/aqto_static": "dev-main",
+    "twfahey1/aqto_text_formats": "dev-main",
     "twfahey1/aqto_theme_base": "dev-main",
     "vlucas/phpdotenv": "^5.1",
     "webflo/drupal-finder": "^1.2"
