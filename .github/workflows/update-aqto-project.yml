@@ -1,0 +1,33 @@
+name: Update Aqto Project with latest build
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  update_aqto_project:
+    runs-on: ubuntu-latest
+    env:
+      path_to_site_codebase_on_runner: ${{ github.workspace }}  # Base path where repo is cloned
+    steps:
+      - name: Update the aqto_project via composer update
+        # ADd the secret of AQTO_PROJECT_GH_TOKEN to the env to use with git
+        env:
+          GH_TOKEN: ${{ secrets.AQTO_PROJECT_GH_TOKEN }}
+        run: |
+          git checkout git@github.com:twfahey1/aqto_project.git
+          composer update --no-progress --no-interaction
+          git add .
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "Run a composer update"
+            // Lets make sure we use our token and use the github cli to auth to push
+            git config --global user.name "${{ github.actor }}"
+            git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+            gh auth login --with-token <<< $GH_TOKEN
+            git push
+            
+          else
+            echo "No changes to commit"
+          fi
