@@ -23,16 +23,17 @@ jobs:
 
       - name: Update the aqto_project via composer update
         working-directory: aqto_project
+        env:
+          GH_TOKEN: ${{ secrets.AQTO_PROJECT_GH_TOKEN }}
         run: |
-          composer update --no-progress --no-interaction 
+          composer update --no-progress --no-interaction
           git add .
           if [ -n "$(git status --porcelain)" ]; then
-            # Use the token and GitHub CLI to authenticate and push changes
             git config --global user.name "${{ github.actor }}"
             git config --global user.email "${{ github.actor }}@users.noreply.github.com"
-            echo $GH_TOKEN | gh auth login --with-token
             git commit -m "Update aqto_project with latest changes from aqto_upstream"
-            git push
+            # Push changes using the fine-grained token
+            git push https://twfahey1:${{ secrets.AQTO_PROJECT_GH_TOKEN }}@github.com/twfahey1/aqto_project.git
           else
             echo "No changes to commit"
           fi
