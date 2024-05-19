@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "85b15b92ff59acbb5ba055c7a015c395",
+    "content-hash": "1ccafda4ed8e1b34f1b3b80c80eba78a",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -9189,6 +9189,44 @@
             "time": "2024-04-30T13:58:56+00:00"
         },
         {
+            "name": "twfahey1/aqto_layout_builder_custom_sections",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twfahey1/aqto_layout_builder_custom_sections.git",
+                "reference": "2fe4f48a26d3c19709ef3aeaa6dd5eaa8bc1e85c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twfahey1/aqto_layout_builder_custom_sections/zipball/2fe4f48a26d3c19709ef3aeaa6dd5eaa8bc1e85c",
+                "reference": "2fe4f48a26d3c19709ef3aeaa6dd5eaa8bc1e85c",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "drupal-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Tyler Fahey",
+                    "email": "twfahey1@gmail.com"
+                }
+            ],
+            "description": "A Drupal module provides Layout Builder sections for use in Aqto projects.",
+            "homepage": "https://github.com/twfahey1/aqto_layout_builder_custom_sections",
+            "keywords": [
+                "drupal",
+                "module"
+            ],
+            "support": {
+                "issues": "https://github.com/twfahey1/aqto_layout_builder_custom_sections/issues",
+                "source": "https://github.com/twfahey1/aqto_layout_builder_custom_sections/tree/main"
+            },
+            "time": "2024-05-19T09:19:16+00:00"
+        },
+        {
             "name": "twfahey1/aqto_layout_builder_styles",
             "version": "dev-main",
             "source": {
@@ -9594,6 +9632,7 @@
         "twfahey1/aqto_layout_builder_styles": 20,
         "twfahey1/aqto_page": 20,
         "twfahey1/aqto_static": 20,
+        "twfahey1/aqto_text_formats": 20,
         "twfahey1/aqto_theme_base": 20
     },
     "prefer-stable": true,
