@@ -18,6 +18,7 @@ jobs:
           GH_TOKEN: ${{ secrets.AQTO_PROJECT_GH_TOKEN }}
         run: |
           git checkout git@github.com:twfahey1/aqto_project.git
+          cd aqto_project
           composer update --no-progress --no-interaction
           git add .
           if [ -n "$(git status --porcelain)" ]; then
