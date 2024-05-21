@@ -46,6 +46,7 @@
     "drush/drush": "^12.0",
     "twfahey1/aqto_ai_codegen": "dev-main",
     "twfahey1/aqto_ai_core": "dev-main",
+    "twfahey1/aqto_ajax_loader": "dev-main",
     "twfahey1/aqto_blocks": "dev-main",
     "twfahey1/aqto_defaults": "dev-main",
     "twfahey1/aqto_layout_builder_custom_sections": "dev-main",

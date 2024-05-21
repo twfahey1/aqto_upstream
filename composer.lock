@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1ccafda4ed8e1b34f1b3b80c80eba78a",
+    "content-hash": "83ccbd8c6359b415f216db38242e5ed7",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -9113,6 +9113,44 @@
             "time": "2024-05-03T19:30:41+00:00"
         },
         {
+            "name": "twfahey1/aqto_ajax_loader",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twfahey1/aqto_ajax_loader.git",
+                "reference": "656c5ec5d0902e90aaa04ab6e44f93bff8bc5230"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twfahey1/aqto_ajax_loader/zipball/656c5ec5d0902e90aaa04ab6e44f93bff8bc5230",
+                "reference": "656c5ec5d0902e90aaa04ab6e44f93bff8bc5230",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "drupal-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Tyler Fahey",
+                    "email": "twfahey1@gmail.com"
+                }
+            ],
+            "description": "A Drupal module which provides AJAX loading display override for Drupal site.",
+            "homepage": "https://github.com/twfahey1/aqto_ajax_loader",
+            "keywords": [
+                "drupal",
+                "module"
+            ],
+            "support": {
+                "issues": "https://github.com/twfahey1/aqto_ajax_loader/issues",
+                "source": "https://github.com/twfahey1/aqto_ajax_loader/tree/main"
+            },
+            "time": "2024-05-21T20:47:28+00:00"
+        },
+        {
             "name": "twfahey1/aqto_blocks",
             "version": "dev-main",
             "source": {
@@ -9629,6 +9667,7 @@
         "twfahey1/aqto_ai_core": 20,
         "twfahey1/aqto_blocks": 20,
         "twfahey1/aqto_defaults": 20,
+        "twfahey1/aqto_layout_builder_custom_sections": 20,
         "twfahey1/aqto_layout_builder_styles": 20,
         "twfahey1/aqto_page": 20,
         "twfahey1/aqto_static": 20,
