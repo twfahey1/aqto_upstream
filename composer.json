@@ -37,6 +37,7 @@
     "drupal/node_view_permissions": "^1.5",
     "drupal/page_title_visibility": "^1.6",
     "drupal/paragraphs": "^1.15",
+    "drupal/paragraphs_entity_embed": "^3.0",
     "drupal/pathauto": "^1.11",
     "drupal/symfony_mailer": "^1.2",
     "drupal/turnstile": "^1.1",
